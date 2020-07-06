@@ -1,13 +1,12 @@
-import lombok.extern.java.Log;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
-public class WorckVector {
-    public static Logger logger = Logger.getLogger(WorckVector.class);
+public class WorkVector {
+    public static Logger logger = Logger.getLogger(WorkVector.class);
     public static void main(String[] args) {
         PropertyConfigurator.configure("log4j.properties");
 
-        Vector vector1 = new Vector(0,0, -4, -5);
+        Vector vector1 = new Vector(1,1, 5, -5);
         Vector vector2 = new Vector(6,1, 8, 6);
 
 
