@@ -2,8 +2,8 @@ import lombok.extern.java.Log;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
-public class WorckVector {
-    public static Logger logger = Logger.getLogger(WorckVector.class);
+public class WorkVector {
+    public static Logger logger = Logger.getLogger(WorkVector.class);
     public static void main(String[] args) {
         PropertyConfigurator.configure("log4j.properties");
 
